@@ -1,0 +1,30 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Historia{% endblock %}
+
+{% block content %}
+<section class="page-section about-heading">
+  <div class="container">
+    <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" width="1080" 
+      src="{% static 'core/img/historia_2.jpg' %}" alt="">
+    <div class="about-heading-content">
+      <div class="row">
+        <div class="col-xl-9 col-lg-10 mx-auto">
+          <div class="bg-faded rounded p-5">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper">PLACER, CONOCIMIENTO Y CONSERVACIÓN </span>
+              <span class="section-heading-lower">ECOSABORES </span>
+            </h2>
+            <p>Ecosabores es una experiencia integral que conjuga el placer de la comida con el conocimiento de los
+              recursos naturales para fomentar su cuidado y conservación. </p>
+            <p> Con más de 8 años de investigación, desarrollo y promoción de la cultura gastronómica potenciamos a los
+              emprendimientos locales y al turismo a lo largo de Chile.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
