@@ -1,5 +1,6 @@
+debes poner al final de la ruta la palabra /admin como te dejo en el ejemplo www.http://webecosabores.pythonanywhere.com/admin asi entras a tu portal admin
 super usuario: marcenovoa
-pass: axelmarcenovoa
+pass: Caradecuy35
 
 
 

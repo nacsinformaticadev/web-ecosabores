@@ -320,14 +320,19 @@ ul.errorlist {
   color: #ffffff !important;
   
   border-radius: 1rem;
-  font-size: 3.5rem;
+  font-size: 3.8rem;
   font-weight: bold !important;
-  background: rgb(173, 133, 133) !important
+  
 }
 
 .stroke{
-  -webkit-text-fill-color: #ffffff !important;
-  -webkit-text-stroke: 1px black !important;
+  -webkit-text-fill-color: rgb(214, 153, 39) !important;
+  -webkit-text-stroke: 1.3px rgb(0, 0, 0) !important;
+}
+
+.stroke-color-2{
+  -webkit-text-fill-color: rgb(0, 0, 0) !important;
+  -webkit-text-stroke: 1.3px rgb(255, 255, 255) !important;
 }
 
 
@@ -336,7 +341,7 @@ ul.errorlist {
 @media (max-width: 992px) {
   .card-img-top {
     width: 100%;
-    height: 43em !important; /*esta es la parte importante para que todas tus card-img tengan la misma medida sin importar el tamaño de la imagen*/
+    height: 30em !important; /*esta es la parte importante para que todas tus card-img tengan la misma medida sin importar el tamaño de la imagen*/
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
     
@@ -346,15 +351,20 @@ ul.errorlist {
     color: #000000 !important;
     border: #08614e !important;
     border-radius: 1rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold !important;
-    background: rgb(173, 133, 133) !important
   }
   
- 
+  .stroke-color-2-mobile{
+    -webkit-text-fill-color: rgb(0, 0, 0) !important;
+    -webkit-text-stroke: 1px rgb(255, 255, 255) !important;
+  }
+}
 
-  /* .stroke{
-    -webkit-text-fill-color: #ffffff !important;
-    -webkit-text-stroke: 2px black !important;
-  } */
+
+hr{
+  border-top: 4px solid #e6a756;
+  width: 50%;
+  align-items: center;
+  margin-top: 5rem;
 }
